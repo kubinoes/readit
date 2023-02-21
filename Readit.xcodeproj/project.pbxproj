@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B1C82C429A51FFB004B9E15 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1C82C329A51FFB004B9E15 /* EmojiRatingView.swift */; };
 		3B82B4B129A503B500CAD7BB /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B82B4B029A503B500CAD7BB /* RatingView.swift */; };
 		3BC3C6C429A4D2F000F54F04 /* ReaditApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3C6C329A4D2F000F54F04 /* ReaditApp.swift */; };
 		3BC3C6C629A4D2F000F54F04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3C6C529A4D2F000F54F04 /* ContentView.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B1C82C329A51FFB004B9E15 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
 		3B82B4B029A503B500CAD7BB /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		3BC3C6C029A4D2F000F54F04 /* Readit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Readit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC3C6C329A4D2F000F54F04 /* ReaditApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaditApp.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			children = (
 				3BC3C6C329A4D2F000F54F04 /* ReaditApp.swift */,
 				3BC3C6C529A4D2F000F54F04 /* ContentView.swift */,
+				3B1C82C329A51FFB004B9E15 /* EmojiRatingView.swift */,
 				3B82B4B029A503B500CAD7BB /* RatingView.swift */,
 				3BDBA91629A4DF1B0050DE19 /* AddBookView.swift */,
 				3BC3C6ED29A4D30D00F54F04 /* Readit.xcdatamodeld */,
@@ -271,6 +274,7 @@
 			files = (
 				3BC3C6C629A4D2F000F54F04 /* ContentView.swift in Sources */,
 				3BC3C6F129A4D36A00F54F04 /* DataController.swift in Sources */,
+				3B1C82C429A51FFB004B9E15 /* EmojiRatingView.swift in Sources */,
 				3BC3C6EF29A4D30D00F54F04 /* Readit.xcdatamodeld in Sources */,
 				3B82B4B129A503B500CAD7BB /* RatingView.swift in Sources */,
 				3BC3C6C429A4D2F000F54F04 /* ReaditApp.swift in Sources */,
