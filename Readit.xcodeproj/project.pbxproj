@@ -14,6 +14,9 @@
 		3BC3C6D529A4D2F600F54F04 /* ReaditTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3C6D429A4D2F600F54F04 /* ReaditTests.swift */; };
 		3BC3C6DF29A4D2F600F54F04 /* ReaditUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3C6DE29A4D2F600F54F04 /* ReaditUITests.swift */; };
 		3BC3C6E129A4D2F600F54F04 /* ReaditUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3C6E029A4D2F600F54F04 /* ReaditUITestsLaunchTests.swift */; };
+		3BC3C6EF29A4D30D00F54F04 /* Readit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3C6ED29A4D30D00F54F04 /* Readit.xcdatamodeld */; };
+		3BC3C6F129A4D36A00F54F04 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3C6F029A4D36A00F54F04 /* DataController.swift */; };
+		3BDBA91729A4DF1B0050DE19 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDBA91629A4DF1B0050DE19 /* AddBookView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		3BC3C6DA29A4D2F600F54F04 /* ReaditUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReaditUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC3C6DE29A4D2F600F54F04 /* ReaditUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaditUITests.swift; sourceTree = "<group>"; };
 		3BC3C6E029A4D2F600F54F04 /* ReaditUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaditUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3BC3C6EE29A4D30D00F54F04 /* Readit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Readit.xcdatamodel; sourceTree = "<group>"; };
+		3BC3C6F029A4D36A00F54F04 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		3BDBA91629A4DF1B0050DE19 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				3BC3C6C329A4D2F000F54F04 /* ReaditApp.swift */,
 				3BC3C6C529A4D2F000F54F04 /* ContentView.swift */,
+				3BDBA91629A4DF1B0050DE19 /* AddBookView.swift */,
+				3BC3C6ED29A4D30D00F54F04 /* Readit.xcdatamodeld */,
+				3BC3C6F029A4D36A00F54F04 /* DataController.swift */,
 				3BC3C6C729A4D2F600F54F04 /* Assets.xcassets */,
 				3BC3C6C929A4D2F600F54F04 /* Preview Content */,
 			);
@@ -258,7 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BC3C6C629A4D2F000F54F04 /* ContentView.swift in Sources */,
+				3BC3C6F129A4D36A00F54F04 /* DataController.swift in Sources */,
+				3BC3C6EF29A4D30D00F54F04 /* Readit.xcdatamodeld in Sources */,
 				3BC3C6C429A4D2F000F54F04 /* ReaditApp.swift in Sources */,
+				3BDBA91729A4DF1B0050DE19 /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +595,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3BC3C6ED29A4D30D00F54F04 /* Readit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3BC3C6EE29A4D30D00F54F04 /* Readit.xcdatamodel */,
+			);
+			currentVersion = 3BC3C6EE29A4D30D00F54F04 /* Readit.xcdatamodel */;
+			path = Readit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3BC3C6B829A4D2F000F54F04 /* Project object */;
 }
